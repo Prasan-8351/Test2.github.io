@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Help Form</title>
+</head>
+<body>
+
+<h2>Contact Us</h2>
+
+<!-- =============================== -->
+<!-- Business Source Content Section -->
+<!-- =============================== -->
+
+<section>
+  <h3>About Our Business</h3>
+  <p>
+    We are a professional software solutions company providing AI-powered 
+    automation tools for businesses. Our services include chatbot development, 
+    website integration, CRM automation, and customer support solutions.
+  </p>
+
+  <p>
+    Our mission is to help businesses streamline operations, improve customer 
+    engagement, and increase productivity through intelligent automation.
+  </p>
+
+  <p>
+    Key Services:
+    <ul>
+      <li>AI Assistant Integration</li>
+      <li>Website Knowledge Base Setup</li>
+      <li>WhatsApp & Email Automation</li>
+      <li>Custom Business Workflow Automation</li>
+    </ul>
+  </p>
+</section>
+
+<hr>
+
+<form name="help-form" method="POST" data-netlify="true">
+
+  <input type="hidden" name="form-name" value="help-form">
+
+  <label>How can we help you?</label><br><br>
+
+  <textarea 
+    name="message" 
+    rows="4" 
+    placeholder="Enter your message..."
+    required>
+  </textarea>
+
+  <br><br>
+  <button type="submit">Submit</button>
+
+</form>
+</body>
+</html>
