@@ -54,5 +54,16 @@
   <button type="submit">Submit</button>
 
 </form>
+
+<script>
+  (function() {
+    var widget = document.createElement('script');
+    widget.src = 'https://assist.aalee.ai/widget.js';
+    widget.setAttribute('data-assistant-id', '2f4281ce-db25-4b8c-9269-28df56772ed7');
+    widget.async = true;
+    document.body.appendChild(widget);
+  })();
+</script>
+
 </body>
 </html>
